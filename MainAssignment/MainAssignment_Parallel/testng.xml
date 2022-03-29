@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test verbose="2" preserve-order="true" name="C:/Users/mvsuhas/MainAssignment_Parallel">
+        <classes>
+            <class name="Tests.Sample1Test">
+                <methods>
+                    <include name="bm_login"/>
+                    <include name="openAccount"/>
+                </methods>
+            </class>
+            <class name="Tests.Sample2Test">
+                <methods>
+                    <include name="customer_login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
